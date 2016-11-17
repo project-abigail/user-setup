@@ -28,7 +28,7 @@ rl.on('line', function(line) {
         case 'MasterPassword':
             masterPassword = userText;
             state = 'AdminUser';
-            rl.setPrompt('Admin user: ');
+            rl.setPrompt('Admin first name: ');
             rl.prompt();
             break;
         case 'AdminUser':
